@@ -34,4 +34,4 @@ run_command sudo sh -c 'echo "fs.file-max=65536" >> /etc/sysctl.conf'
 run_command sudo sh -c 'echo "ulimit -n 65536" >> /etc/sysctl.conf'
 run_command sudo sh -c 'echo "ulimit -u 4096" >> /etc/sysctl.conf'
 
-log "First part of SonarQube installation done."
+log "First part of SonarQube installation done. Please go into your AWS console and reboot your instance before running part 2 of the installation"

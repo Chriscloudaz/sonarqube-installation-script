@@ -28,15 +28,16 @@ This repository contains a set of Bash scripts designed to facilitate the instal
     
 	    git clone https://github.com/chriscloudaz/sonarqube-installation-script/
     
-4.  Run each script in sequence:
+4.  Run part one of the script:
 
 	    sudo bash sonarqube-install-one.sh
    
-	   After the server restarts:
+5.  Manually restart the server in the AWS console and SSH again after a few mins
+6.  Run part two of the script:
 
 		sudo bash sonarqube-install-two.sh
 
-5. Access SonarQube via the provided URL.
+7. Access SonarQube via the provided URL.
 
 #### Note
 
